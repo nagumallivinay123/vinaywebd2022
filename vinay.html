@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<head><title>vinay </title></head>
-<style> #elements{display:inline-block;}
+<head><title>vinay </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+    html{
+        background-color:yellow;
+        font-family: 'Dongle', sans-serif;
+font-family: 'PT Serif', serif;
+    }
+body{
+    margin:30px;
+    border:5px solid red;
+    padding:10px ;
+    background-color: white;
+    
+}
+img{
+    border-radius:50%;
+    height:200px ; max-height: 300px;
+    min-width: 200px;max-width: 300px;
+ border:4px solid rgb(240, 48, 182);
+   
+    
+    
+}
+.center {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+}
+.vinay{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    text-align: center;
+}
+table{
+    font-family: Arial;
+    border: 2px solid black;
+   align-content: center;  
+}
+td,th{
+    border: 1px solid black;
+    padding: 5px; 
+}
+
+#elements{display:inline-block;}
 .vin{color:dimgrey}
+
 </style>
 <body> 
-<h1> [NAGUMALLI VINAY]</h1>
+<h1 style="text-align: center;"> [NAGUMALLI VINAY]</h1>
+<img src="/Users/nagumalllivinay/Desktop/vinay.jpeg"
+alt="elon musk"
+class="center">
 <div id="elements"> <strong>Email :</strong>nagumallivinay123@gmail.com
 | <strong> phone : </strong>9701276641 | <strong>My github URL :</strong>
 <a href="https://github.com/nagumallivinay123" > nagumallivinay</a>
@@ -15,26 +70,35 @@
     <li> sapiente fugiat cum volupatate ipsum,possiums veniam sint architecto! Dolrum corporis dolores eos pariatur quod</li>
 </ul>
 <hr>
-<h2> Skills</h2>
-<div id="elements">
-    <strong style="word-spacing: 30px;">Language skill</strong>
-</div>
-<br><br>
-<div id="elements">
-    <strong style="word-spacing: 30px;">HTML &starf;</strong>&starf;&starf;&starf;&star;
-</div> <br>
-<div id="elements">
-    <strong style="word-spacing: 50px;">CSS &starf;</strong> &starf;&starf;&star;&star;
-</div><br>
-<div id="elements">
-    <strong style="word-spacing:10px;">Javascript &starf;</strong>&starf;&star;&star;&star;
-</div><br><br>
+<h2 > Skills</h2>
+<table class="vinay">
+<tr>
+    <th>Language</th>
+    <th>Skill</th>
+</tr>
+<tr>
+    <td>HTML</td>
+<td><span style="color:yellow;" >&starf;&starf;&starf;&starf;</span>&star;</td>
+</tr>
+    
+    <td>CSS</td>
+    <td><span style="color:yellow;" >&starf;&starf;&starf;&starf;</span>&star;</td>
+</tr>
+<tr>
+    <td>Javascript</td>
+    <td><span style="color:yellow;" >&starf;&starf;&starf;</span> &star;&star;</td>
+</tr>
+
+</table><br><br>
 <hr>
 <h2>Contact Me </h2>
 <form>
-    <label> Your Name:</label><input type="text "  value="Enter your name" class="vin">   <br><br>
-     <label> Your Email id :</label><input type="text "  value="Enter your Email id " class="vin"><br><br>
-     <label> Your Message : </label><input type="text"  class="vin" size="60" style="height:60px;" value="Enter your Message"  >
+    <label> Your Name:</label><input type="text "  placeholder="Enter your name" class="vin">   <br><br>
+    <label> Your Email id :</label>
+    
+     <input type="text "  placeholder="Enter your Email id " class="vin"><br><br><br><br>
+     <label> Your Message : </label>
+     <textarea type="text"  class="vin" cols="60" rows="10"placeholder="enter the message" ></textarea>
 </form>
 
 
